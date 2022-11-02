@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:tan5460/YJRepo.git'
+
+platform :ios, '9.0'
+
+target 'Example' do
+  use_frameworks!
+
+  pod 'YJBaseSDK', :path => '../'
+
+end
